@@ -9,7 +9,6 @@ st.title("School Rankings Geographical Analysis")
 # Load data (Cached for performance)
 @st.cache_data
 def load_data():
-    # Ensure this file exists in your directory
     return pd.read_csv('geocoded_schools_success.csv')
 
 df = load_data()
@@ -19,11 +18,10 @@ st.sidebar.header("Filter Data")
 
 # 1. Journal Category Multiselect
 categories = df['Journal Category'].dropna().unique().tolist()
-# Use multiselect instead of selectbox
 selected_categories = st.sidebar.multiselect(
     "Select Journal Categories", 
     options=categories, 
-    default=categories[:2] # Defaults to the first two categories
+    default=categories
 )
 
 # 2. Rank Slider
@@ -37,37 +35,52 @@ selected_rank_range = st.sidebar.slider(
 )
 
 # --- Apply Filters ---
-# Use .isin() for the list of categories and keep the range logic
 filtered_df = df[
     (df['Journal Category'].isin(selected_categories)) & 
     (df['Rank'] >= selected_rank_range[0]) & 
     (df['Rank'] <= selected_rank_range[1])
-]
+].copy()
 
 # --- Render Map ---
-st.write(f"### Showing {len(filtered_df)} schools for selected categories (Rank {selected_rank_range[0]} - {selected_rank_range[1]})")
+st.write(f"### Showing {len(filtered_df)} schools (Rank {selected_rank_range[0]} - {selected_rank_range[1]})")
 
+# Map visualization
 fig = px.scatter_mapbox(
     filtered_df,
     lat="Latitude",
     lon="Longitude",
     hover_name="Affiliation",
-    hover_data=["Rank", "School Weight"],
-    color="Rank",
-    color_continuous_scale="Plasma_r",
+    # Added Journal Category to hover data
+    hover_data={
+        "Latitude": False, 
+        "Longitude": False, 
+        "Rank": True, 
+        "School Weight": True, 
+        "Journal Category": True
+    },
+    # Using Category for color to visually distinguish Analytical vs Empirical
+    color="Journal Category",
+    # Using School Weight for size to add another layer of data
+    size="School Weight",
+    size_max=15,
     zoom=1.2,
-    height=600
+    height=600,
+    color_discrete_sequence=px.colors.qualitative.Bold
 )
 
-# --- Configuration for Scroll Zoom ---
+# --- Layout and Interaction Configuration ---
 fig.update_layout(
     mapbox_style="open-street-map", 
     margin={"r":0,"t":0,"l":0,"b":0},
-    # This enables scroll-to-zoom
-    mapbox=dict(zoom=1.2)
+    # Ensure mapbox object is initialized for the zoom config
+    mapbox=dict(center={"lat": df["Latitude"].mean(), "lon": df["Longitude"].mean()}, zoom=1.2)
 )
 
-fig.update_traces(marker=dict(size=10, opacity=0.8))
+fig.update_traces(marker=dict(opacity=0.7))
 
-# Use config parameter to ensure scrollZoom is active
+# Display in Streamlit with scrollZoom enabled
 st.plotly_chart(fig, use_container_width=True, config={'scrollZoom': True})
+
+# Optional: Show data table below map
+if st.checkbox("Show Raw Data"):
+    st.dataframe(filtered_df)
