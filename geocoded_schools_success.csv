@@ -35,7 +35,7 @@ Unnamed: 0,Affiliation,Journal Category,Rank,School Weight,Year Range,Number of 
 33,University of Minnesota,Analytical,34,21.12,2026 Ranking (2021-2025),1,44.9863418,-93.1794451
 34,Carnegie Mellon University,Analytical,35,20.94,2026 Ranking (2021-2025),1,40.4439193,-79.9428267
 35,University of Southern California,Analytical,36,20.88,2026 Ranking (2021-2025),1,34.021869,-118.2858579
-36,University of Florida,Analytical,37,20.0,2026 Ranking (2021-2025),1,29.6411884,-82.3562296
+36,University of Florida,Analytical,37,20,2026 Ranking (2021-2025),1,29.6411884,-82.3562296
 37,The Ohio State University,Analytical,38,19.57,2026 Ranking (2021-2025),1,40.0056982,-83.0286573
 38,Fudan University,Analytical,39,18.97,2026 Ranking (2021-2025),1,31.3011748,121.4974703
 39,University of British Columbia,Analytical,40,18.95,2026 Ranking (2021-2025),1,49.2484638,-123.2341555
@@ -176,7 +176,7 @@ Unnamed: 0,Affiliation,Journal Category,Rank,School Weight,Year Range,Number of 
 179,Wilfrid Laurier University,Analytical,180,3.03,2026 Ranking (2021-2025),1,43.4727989,-80.5280863
 180,Shandong University,Analytical,180,3.03,2026 Ranking (2021-2025),1,36.3688546,120.6737612
 181,University of Chinese Academy of Sciences,Analytical,180,3.03,2026 Ranking (2021-2025),1,40.0021965,116.3734052
-182,Durham University,Analytical,183,3.0,2026 Ranking (2021-2025),1,54.7672268,-1.5721956
+182,Durham University,Analytical,183,3,2026 Ranking (2021-2025),1,54.7672268,-1.5721956
 183,Xi'an Jiaotong University,Analytical,184,2.95,2026 Ranking (2021-2025),1,34.2476753,108.9789725
 185,University of Wisconsin - Milwaukee,Analytical,185,2.93,2026 Ranking (2021-2025),1,43.077639,-87.8819425
 186,University of Electronic Science and Technology of China,Analytical,187,2.87,2026 Ranking (2021-2025),1,30.7534211,103.9294024
@@ -212,10 +212,10 @@ Unnamed: 0,Affiliation,Journal Category,Rank,School Weight,Year Range,Number of 
 219,Stockholm University,Analytical,217,2.08,2026 Ranking (2021-2025),1,59.366141,18.059593
 220,University of North Carolina - Charlotte,Analytical,221,2.05,2026 Ranking (2021-2025),1,35.3064945,-80.7349705
 221,Southeast University,Analytical,222,2.02,2026 Ranking (2021-2025),1,31.8891787,118.815607
-222,Oklahoma State University,Analytical,223,2.0,2026 Ranking (2021-2025),1,36.1313523,-97.0890651
-223,Washington State University,Analytical,223,2.0,2026 Ranking (2021-2025),1,46.7337716,-117.1498035
-224,University of Michigan - Dearborn,Analytical,223,2.0,2026 Ranking (2021-2025),1,42.3172294,-83.2319394
-225,University of Porto,Analytical,223,2.0,2026 Ranking (2021-2025),1,41.1784933,-8.5961974
+222,Oklahoma State University,Analytical,223,2,2026 Ranking (2021-2025),1,36.1313523,-97.0890651
+223,Washington State University,Analytical,223,2,2026 Ranking (2021-2025),1,46.7337716,-117.1498035
+224,University of Michigan - Dearborn,Analytical,223,2,2026 Ranking (2021-2025),1,42.3172294,-83.2319394
+225,University of Porto,Analytical,223,2,2026 Ranking (2021-2025),1,41.1784933,-8.5961974
 226,Drexel University,Analytical,227,1.98,2026 Ranking (2021-2025),1,39.9569305,-75.1899265
 227,University of International Business and Economics,Analytical,228,1.95,2026 Ranking (2021-2025),1,39.977598,116.4215242
 229,University of Dayton,Analytical,230,1.92,2026 Ranking (2021-2025),1,39.7383807,-84.1791678
@@ -294,26 +294,26 @@ Unnamed: 0,Affiliation,Journal Category,Rank,School Weight,Year Range,Number of 
 312,University of Bristol,Analytical,313,1.03,2026 Ranking (2021-2025),1,51.4905582,-2.6304825
 313,ESCP Business School - Berlin,Analytical,313,1.03,2026 Ranking (2021-2025),1,52.5236782,13.2893897
 314,Sichuan University,Analytical,313,1.03,2026 Ranking (2021-2025),1,30.5601863,103.9973029
-315,Fuzhou University,Analytical,316,1.0,2026 Ranking (2021-2025),1,26.0614068,119.1933416
-316,Donghua University,Analytical,316,1.0,2026 Ranking (2021-2025),1,31.206218,121.4105479
-317,University of Passau,Analytical,316,1.0,2026 Ranking (2021-2025),1,48.5675496,13.452108
-318,Fundacao Getulio Vargas,Analytical,316,1.0,2026 Ranking (2021-2025),1,-23.5599049,-46.6534588
-319,University of North Texas,Analytical,316,1.0,2026 Ranking (2021-2025),1,33.2098926,-97.1514762
-322,Zhongnan University of Economics and Law,Analytical,316,1.0,2026 Ranking (2021-2025),1,30.4764327,114.3801799
-323,HSE University,Analytical,316,1.0,2026 Ranking (2021-2025),1,33.976192,71.5112263
-324,Tata Institute of Fundamental Research,Analytical,316,1.0,2026 Ranking (2021-2025),1,18.9071237,72.8049637
-325,University of Nevada - Reno,Analytical,316,1.0,2026 Ranking (2021-2025),1,39.5442688,-119.8163105
-326,Universidad Carlos III de Madrid,Analytical,316,1.0,2026 Ranking (2021-2025),1,40.3150937,-3.7248801
-327,Copenhagen Business School,Analytical,316,1.0,2026 Ranking (2021-2025),1,55.677873,12.5216155
-328,University of Exeter,Analytical,316,1.0,2026 Ranking (2021-2025),1,50.1701604,-5.1241802
-329,California Polytechnic State University,Analytical,316,1.0,2026 Ranking (2021-2025),1,35.3074623,-120.6646483
-331,Ecole des Ponts,Analytical,316,1.0,2026 Ranking (2021-2025),1,45.5801913,-0.5454196
-332,Google LLC,Analytical,316,1.0,2026 Ranking (2021-2025),1,37.4138894,-122.0052325
-333,University of Lyon,Analytical,316,1.0,2026 Ranking (2021-2025),1,43.6624561,-79.392723
-334,Huazhong Agricultural University,Analytical,316,1.0,2026 Ranking (2021-2025),1,30.4739905,114.348398
-335,University of Padova,Analytical,316,1.0,2026 Ranking (2021-2025),1,45.4066496,11.8774407
-337,Kobe University,Analytical,316,1.0,2026 Ranking (2021-2025),1,34.663757,135.0291256
-338,University of Zurich,Analytical,316,1.0,2026 Ranking (2021-2025),1,43.6535316,-79.3883612
+315,Fuzhou University,Analytical,316,1,2026 Ranking (2021-2025),1,26.0614068,119.1933416
+316,Donghua University,Analytical,316,1,2026 Ranking (2021-2025),1,31.206218,121.4105479
+317,University of Passau,Analytical,316,1,2026 Ranking (2021-2025),1,48.5675496,13.452108
+318,Fundacao Getulio Vargas,Analytical,316,1,2026 Ranking (2021-2025),1,-23.5599049,-46.6534588
+319,University of North Texas,Analytical,316,1,2026 Ranking (2021-2025),1,33.2098926,-97.1514762
+322,Zhongnan University of Economics and Law,Analytical,316,1,2026 Ranking (2021-2025),1,30.4764327,114.3801799
+323,HSE University,Analytical,316,1,2026 Ranking (2021-2025),1,33.976192,71.5112263
+324,Tata Institute of Fundamental Research,Analytical,316,1,2026 Ranking (2021-2025),1,18.9071237,72.8049637
+325,University of Nevada - Reno,Analytical,316,1,2026 Ranking (2021-2025),1,39.5442688,-119.8163105
+326,Universidad Carlos III de Madrid,Analytical,316,1,2026 Ranking (2021-2025),1,40.3150937,-3.7248801
+327,Copenhagen Business School,Analytical,316,1,2026 Ranking (2021-2025),1,55.677873,12.5216155
+328,University of Exeter,Analytical,316,1,2026 Ranking (2021-2025),1,50.1701604,-5.1241802
+329,California Polytechnic State University,Analytical,316,1,2026 Ranking (2021-2025),1,35.3074623,-120.6646483
+331,Ecole des Ponts,Analytical,316,1,2026 Ranking (2021-2025),1,45.5801913,-0.5454196
+332,Google LLC,Analytical,316,1,2026 Ranking (2021-2025),1,37.4138894,-122.0052325
+333,University of Lyon,Analytical,316,1,2026 Ranking (2021-2025),1,43.6624561,-79.392723
+334,Huazhong Agricultural University,Analytical,316,1,2026 Ranking (2021-2025),1,30.4739905,114.348398
+335,University of Padova,Analytical,316,1,2026 Ranking (2021-2025),1,45.4066496,11.8774407
+337,Kobe University,Analytical,316,1,2026 Ranking (2021-2025),1,34.663757,135.0291256
+338,University of Zurich,Analytical,316,1,2026 Ranking (2021-2025),1,43.6535316,-79.3883612
 339,JD.com,Analytical,340,0.97,2026 Ranking (2021-2025),1,22.5509273,114.0819636
 341,University of San Diego,Analytical,341,0.95,2026 Ranking (2021-2025),1,32.7726302,-117.1891347
 343,Ben-Gurion University,Analytical,341,0.95,2026 Ranking (2021-2025),1,31.2631254,34.8022385
@@ -781,7 +781,7 @@ Unnamed: 0,Affiliation,Journal Category,Rank,School Weight,Year Range,Number of 
 16856,University of North Texas,Empirical,39,3.29,2026 Ranking (2021-2025),1,33.2098926,-97.1514762
 16857,Western University,Empirical,40,3.25,2026 Ranking (2021-2025),1,32.7139413,-117.0372503
 16858,Clemson University,Empirical,41,3.15,2026 Ranking (2021-2025),1,34.6686916,-82.8374348
-16859,University College - Dublin,Empirical,42,3.0,2026 Ranking (2021-2025),1,53.3068763,-6.2246251
+16859,University College - Dublin,Empirical,42,3,2026 Ranking (2021-2025),1,53.3068763,-6.2246251
 16860,University of Bath,Empirical,43,2.95,2026 Ranking (2021-2025),1,51.3766938,-2.3234206
 16861,Nanjing University,Empirical,44,2.92,2026 Ranking (2021-2025),1,32.0565957,118.7740883
 16862,Kuehne Logistics University,Empirical,45,2.87,2026 Ranking (2021-2025),1,53.5405721,9.9943719
@@ -810,8 +810,8 @@ Unnamed: 0,Affiliation,Journal Category,Rank,School Weight,Year Range,Number of 
 16886,Florida International University,Empirical,69,2.03,2026 Ranking (2021-2025),1,25.7553898,-80.3762833
 16887,Georgia Institute of Technology,Empirical,69,2.03,2026 Ranking (2021-2025),1,33.7760948,-84.3988077
 16888,University of Wisconsin,Empirical,69,2.03,2026 Ranking (2021-2025),1,44.5328424,-87.9198844
-16889,ESCP Business School - Berlin,Empirical,72,2.0,2026 Ranking (2021-2025),1,52.5236782,13.2893897
-16891,National Chengchi University,Empirical,72,2.0,2026 Ranking (2021-2025),1,24.9802091,121.5749593
+16889,ESCP Business School - Berlin,Empirical,72,2,2026 Ranking (2021-2025),1,52.5236782,13.2893897
+16891,National Chengchi University,Empirical,72,2,2026 Ranking (2021-2025),1,24.9802091,121.5749593
 16892,University of Warwick,Empirical,75,1.92,2026 Ranking (2021-2025),1,52.3813073,-1.5639569
 16893,Korea University,Empirical,76,1.87,2026 Ranking (2021-2025),1,36.6108894,127.2934174
 16894,Florida Atlantic University,Empirical,77,1.83,2026 Ranking (2021-2025),1,26.1194058,-80.14168
@@ -873,25 +873,25 @@ Unnamed: 0,Affiliation,Journal Category,Rank,School Weight,Year Range,Number of 
 16955,University of Electronic Science and Technology of China,Empirical,136,1.08,2026 Ranking (2021-2025),1,30.7534211,103.9294024
 16956,University of Iowa,Empirical,136,1.08,2026 Ranking (2021-2025),1,41.6311024,-91.540752
 16957,University of Sydney,Empirical,136,1.08,2026 Ranking (2021-2025),1,32.8725226,-117.2020213
-16958,Bialystok University of Technology,Empirical,141,1.0,2026 Ranking (2021-2025),1,53.1175618,23.1493258
-16959,Cal Poly Pomona,Empirical,141,1.0,2026 Ranking (2021-2025),1,34.0556686,-117.8239282
-16960,Carnegie Mellon University,Empirical,141,1.0,2026 Ranking (2021-2025),1,40.4439193,-79.9428267
-16961,City University of New York,Empirical,141,1.0,2026 Ranking (2021-2025),1,40.8077508,-73.9624901
-16962,Georgia State University,Empirical,141,1.0,2026 Ranking (2021-2025),1,33.7535889,-84.3854209
-16964,HEC - Montreal,Empirical,141,1.0,2026 Ranking (2021-2025),1,45.5039103,-73.622129
-16966,John Carroll University,Empirical,141,1.0,2026 Ranking (2021-2025),1,41.4903811,-81.5287587
-16967,LUT University,Empirical,141,1.0,2026 Ranking (2021-2025),1,61.0649366,28.0961108
-16968,Leiden University,Empirical,141,1.0,2026 Ranking (2021-2025),1,52.1686355,4.4597028
-16969,Lincoln University,Empirical,141,1.0,2026 Ranking (2021-2025),1,39.8065518,-75.9287055
-16970,Massey University,Empirical,141,1.0,2026 Ranking (2021-2025),1,-36.7327011,174.7026709
-16971,Sam Houston State University,Empirical,141,1.0,2026 Ranking (2021-2025),1,30.7133471,-95.5449136
-16972,Syracuse University,Empirical,141,1.0,2026 Ranking (2021-2025),1,43.0171129,-76.1185536
-16973,Tel Aviv University,Empirical,141,1.0,2026 Ranking (2021-2025),1,32.1123577,34.8050129
-16974,University of Auckland,Empirical,141,1.0,2026 Ranking (2021-2025),1,-36.8660955,174.7737331
-16976,University of Massachusetts ‐ Boston,Empirical,141,1.0,2026 Ranking (2021-2025),1,42.314068,-71.0387132
-16977,University of Southern Denmark,Empirical,141,1.0,2026 Ranking (2021-2025),1,55.3678532,10.4280534
-16978,University of Texas - El Paso,Empirical,141,1.0,2026 Ranking (2021-2025),1,31.7760149,-106.507969
-16979,University of Vermont,Empirical,141,1.0,2026 Ranking (2021-2025),1,44.4737365,-73.1941468
+16958,Bialystok University of Technology,Empirical,141,1,2026 Ranking (2021-2025),1,53.1175618,23.1493258
+16959,Cal Poly Pomona,Empirical,141,1,2026 Ranking (2021-2025),1,34.0556686,-117.8239282
+16960,Carnegie Mellon University,Empirical,141,1,2026 Ranking (2021-2025),1,40.4439193,-79.9428267
+16961,City University of New York,Empirical,141,1,2026 Ranking (2021-2025),1,40.8077508,-73.9624901
+16962,Georgia State University,Empirical,141,1,2026 Ranking (2021-2025),1,33.7535889,-84.3854209
+16964,HEC - Montreal,Empirical,141,1,2026 Ranking (2021-2025),1,45.5039103,-73.622129
+16966,John Carroll University,Empirical,141,1,2026 Ranking (2021-2025),1,41.4903811,-81.5287587
+16967,LUT University,Empirical,141,1,2026 Ranking (2021-2025),1,61.0649366,28.0961108
+16968,Leiden University,Empirical,141,1,2026 Ranking (2021-2025),1,52.1686355,4.4597028
+16969,Lincoln University,Empirical,141,1,2026 Ranking (2021-2025),1,39.8065518,-75.9287055
+16970,Massey University,Empirical,141,1,2026 Ranking (2021-2025),1,-36.7327011,174.7026709
+16971,Sam Houston State University,Empirical,141,1,2026 Ranking (2021-2025),1,30.7133471,-95.5449136
+16972,Syracuse University,Empirical,141,1,2026 Ranking (2021-2025),1,43.0171129,-76.1185536
+16973,Tel Aviv University,Empirical,141,1,2026 Ranking (2021-2025),1,32.1123577,34.8050129
+16974,University of Auckland,Empirical,141,1,2026 Ranking (2021-2025),1,-36.8660955,174.7737331
+16976,University of Massachusetts ‐ Boston,Empirical,141,1,2026 Ranking (2021-2025),1,42.314068,-71.0387132
+16977,University of Southern Denmark,Empirical,141,1,2026 Ranking (2021-2025),1,55.3678532,10.4280534
+16978,University of Texas - El Paso,Empirical,141,1,2026 Ranking (2021-2025),1,31.7760149,-106.507969
+16979,University of Vermont,Empirical,141,1,2026 Ranking (2021-2025),1,44.4737365,-73.1941468
 16980,Donghua University,Empirical,163,0.98,2026 Ranking (2021-2025),1,31.206218,121.4105479
 16981,Villanova University,Empirical,163,0.98,2026 Ranking (2021-2025),1,40.0367835,-75.3420185
 16982,Aarhus University,Empirical,165,0.93,2026 Ranking (2021-2025),1,56.1670905,10.2026177
@@ -1244,3 +1244,4 @@ Unnamed: 0,Affiliation,Journal Category,Rank,School Weight,Year Range,Number of 
 17382,University of Cape Town,Empirical,563,0.11,2026 Ranking (2021-2025),1,-33.9567558,18.4675777
 17383,University of Pennsylvania,Empirical,563,0.11,2026 Ranking (2021-2025),1,39.9522148,-75.1955729
 17384,University of Technology Sydney,Empirical,563,0.11,2026 Ranking (2021-2025),1,-33.8832536,151.2003294
+17385,Swiss Federal Institute of Technology,Empirical,11,7.21,2026 Ranking (2021-2025),1,47.37655,8.548665
